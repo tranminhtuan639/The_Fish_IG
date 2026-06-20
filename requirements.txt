@@ -1,0 +1,6 @@
+icrawler
+
+bing-image-downloader
+torch
+torchvision
+numpy

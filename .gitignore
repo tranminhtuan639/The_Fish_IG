@@ -1,0 +1,30 @@
+### Python ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+### Dự án AI / Machine Learning (Tránh push các file model rất nặng) ###
+model/checkpoints/*.pth
+model/checkpoints/*.onnx
+model/checkpoints/*.pkl
+
+### Bộ nhớ đệm Vector DB (ChromaDB sinh ra khi chạy cục bộ) ###
+rag/chroma_db/
+*.sqlite3
+
+### Dữ liệu hình ảnh / Dataset (Nếu các thư mục này chứa hàng nghìn ảnh raw/train) ###
+data/raw/*/
+data/processed/
+
+### Hệ điều hành / IDE ###
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
