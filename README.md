@@ -252,3 +252,12 @@
     }
   ],
   ```
+```
+The_Fish_IG/
+├── app/          → Giao diện Streamlit (main.py)
+├── chatbot/      → LLM client, Prompt builder
+├── data/         → knowledge_base (Markdown), raw/processed images
+├── model/        → Train, Predict, Evaluate + model checkpoints
+├── rag/          → Build index, Retriever (ChromaDB)
+└── utils/        → Tiện ích (split_dataset)
+```
